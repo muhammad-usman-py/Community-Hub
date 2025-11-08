@@ -23,8 +23,9 @@ The website has **6 pages** that connect people in a community:
 
 ## 🗂️ Folder & File Structure (Explained Simply)
 
-Here’s how our project is organized and what each file or folder is for 👇
 
+
+```
 CommunityHub/
 │
 ├── index.html                    ← Usman: Welcome (main landing)
@@ -54,7 +55,7 @@ CommunityHub/
 │
 ├── README.md                     ← Optional: Project overview, member roles
 └── .gitignore                    ← Optional: To ignore temporary files if using Git
-
+```
 
 ---
 
