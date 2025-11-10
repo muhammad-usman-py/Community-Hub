@@ -203,6 +203,56 @@ body {
     color:#111827;
     margin:20px 0;
   }
+  .line{
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(90deg,#059669 11%,#10B981 56%,#10b981 33%);
+    margin: 0 auto 60px;
+  }
+  div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.e1{
+  width:31%;  
+  float: left;
+  border: #D9EEE1 2px;
+  margin:5px;
+  height:200px;
+   margin-top: -20px;
+   
+}
+
+.e2{
+  width:31%;  
+  float: left;
+  margin:5px;
+  height:200px;
+   margin-top: -20px;
+}
+
+.e3{
+  width:31%;  
+  float: left;
+  margin: 5px;
+  height:200px;
+  margin-top: -20px;
+}
+.he{
+    background-color: aquamarine;
+    
+}
+h2{
+    text-align: center;
+}
+.border{
+
+  border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #FF0000; /* Red color using hexadecimal */
+    padding: 10px;
+    margin-top: -20px; 
+}
 
 
 
@@ -210,5 +260,59 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ==== Hammad : Contact Page==== */
+  .line::after{
+    content:"";
+    display:block;
+      width: 120px;
+      height: 5px;
+      background: linear-gradient(to right, #03fc39, #668abc);
+      margin: 10px auto;
+      border-radius: 2px;
+  }
+  .line{
+    transition: transform 0.2s ease;
+  }
+  .line:hover{
+    cursor: pointer;
+    color: #52d081;
+    text-shadow: 0 0 10px rgba(109, 215, 137, 0.6);
+    transform: scale(1.2);
+  }
+  .main{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    max-width: 1100px;
+    margin:50px auto;
+    padding: 20px;
+  }
+  .info{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+  }
 
 
