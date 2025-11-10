@@ -164,6 +164,14 @@ body {
     color:#111827;
     margin:20px 0;
   }
+  .line{
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(90deg,#059669 11%,#10B981 56%,#10b981 33%);
+    margin: 0 auto 60px;
+    
+
+  }
 
 
 
