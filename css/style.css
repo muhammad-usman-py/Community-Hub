@@ -301,7 +301,7 @@ h2{
 
 
   /* ==== Hammad : Contact Page==== */
-  .line::after{
+  .line1::after{
     content:"";
     display:block;
       width: 120px;
@@ -310,16 +310,26 @@ h2{
       margin: 10px auto;
       border-radius: 2px;
   }
-  .line{
+  .line1{
     transition: transform 0.2s ease;
   }
-  .line:hover{
+  h2{
+        transition: transform 0.2s ease;
+
+  }
+  h2:hover{
+    cursor: pointer;
+    color: #5483f1;
+    text-shadow: 0 0 10px rgba(109, 164, 215, 0.6);
+    transform: scale(1.2);
+  }
+  .line1:hover{
     cursor: pointer;
     color: #52d081;
     text-shadow: 0 0 10px rgba(109, 215, 137, 0.6);
     transform: scale(1.2);
   }
-  .main{
+  .main1{
     display:flex;
     justify-content: center;
     gap:50px;
@@ -328,9 +338,53 @@ h2{
     padding: 20px;
   }
   .info{
+     animation: fadeIn 2s ease;
+    width: 600px;
+    background-color: lab(73.2% -49.06 13.19);
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 100 100px 100px rgba(9, 9, 9, 9);
+    flex: 0 0 450px;
+  }
+  .feedback{
+    animation: fadeIn 2s ease;
+    border-radius:16px;
+  }
+  .feedbackform{
+    animation: fadeIn 4s ease;
+    gap:15px;
     display:flex;
     flex-direction: column;
-    width:500px;
+    width: 600px;
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 10 2px 6px rgba(33, 182, 115, 0.05);
+    flex: 1 1 0%;
   }
+  input, select, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #d0d0d5;
+      font-size: 15px;
+      outline: none;
+      width: 80%;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: #59ff6f;
+      box-shadow: 0 0 3px #72ff5950;
+    }
+  button {
+      background: linear-gradient(to right, #6ff69f, #49f505);
+      color: #fff;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
 
 
