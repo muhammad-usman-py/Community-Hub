@@ -21,7 +21,7 @@ body {
 }
 
 
-/* ===== NAVBAR STYLING ===== */
+/* Usman:  NAVBAR STYLING*/
 .navbar {
   display: flex;
   justify-content: space-between; 
@@ -52,10 +52,30 @@ body {
 }
 
 .nav-links li a {
-  text-decoration: none;
-  color: #111827;
-  font-weight: 500;
-  transition: color 0.3s;
+  color: #18272F;                
+  position: relative;            
+  text-decoration: none;        
+  font-weight: 500;              
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #10B981;
+  bottom: -3px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links li a:hover::before {
+  transform-origin: left;        
+  transform: scaleX(1);          
 }
 
 .nav-links li a:hover {
@@ -83,7 +103,9 @@ body {
 .theme-toggle:hover {
   background: #059669;
 }
-/* ===== RESPONSIVE =====
+
+
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -97,22 +119,23 @@ body {
   .nav-right {
     align-self: flex-end;
   }
-} */
+}
 
 
-/*Welcome Section*/
+
+/*Usman : Welcome Section*/
 
 .welcome-section{
   background-color:#10b981;
-   background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
+  background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
   text-align: center;
-  padding: 10px 10px;
+  padding: 96px 32px;
   border-bottom-right-radius: 35px;
   
 }
 
 .welcome-content h1{
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: #111827;
   margin-bottom: 20px;
 }
@@ -130,7 +153,7 @@ body {
   background-color: #10B981;
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 12px 30px;
   font-size: 1rem;
   font-weight: 600;
@@ -164,6 +187,65 @@ body {
     color:#111827;
     margin:20px 0;
   }
+  .line{
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(90deg,#059669 11%,#10B981 56%,#10b981 33%);
+    margin: 0 auto 60px;
+  }
+  div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.e1{
+  width:31%;  
+  float: left;
+  border: #D9EEE1 2px;
+  margin:5px;
+  height:200px;
+   margin-top: -20px;
+   
+}
+
+.e2{
+  width:31%;  
+  float: left;
+  margin:5px;
+  height:200px;
+   margin-top: -20px;
+}
+
+.e3{
+  width:31%;  
+  float: left;
+  margin: 5px;
+  height:200px;
+  margin-top: -20px;
+}
+.he{
+    background-color: aquamarine;
+    
+}
+h2{
+    text-align: center;
+}
+.border{
+
+  border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #FF0000; /* Red color using hexadecimal */
+    padding: 10px;
+    margin-top: -20px; 
+}
+
+
+/* usman : Featured Section */
+.featured-section{
+  text-align: center;
+}
+
+
+
 
 
 
