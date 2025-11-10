@@ -1,0 +1,157 @@
+/* ==== Usman: Welcome page==== */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --accent: #10b981;
+  --accent-hover: #059669;
+  --border: #e5e7eb;
+  --footer-bg: #1f2937;
+  --footer-text: #f3f4f6;
+}
+
+body {
+  
+  font-family: Arial, sans-serif;
+  background-color:#e5e7eb;
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+  line-height: 1.6;
+}
+
+
+/* ===== NAVBAR STYLING ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 40px;
+  border-top-left-radius: 35px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+
+.nav-left h1 {
+  font-size: 1.5rem;
+  color: #111827;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 1; 
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #10B981; 
+}
+
+
+.nav-right {
+  width: 80px; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.theme-toggle {
+  background: #10B981;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.theme-toggle:hover {
+  background: #059669;
+}
+/* ===== RESPONSIVE =====
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .nav-right {
+    align-self: flex-end;
+  }
+} */
+
+
+/*Welcome Section*/
+
+.welcome-section{
+  background-color:#10b981;
+   background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
+  text-align: center;
+  padding: 10px 10px;
+  border-bottom-right-radius: 35px;
+  
+}
+
+.welcome-content h1{
+  font-size: 2.5rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+
+.welcome-content p{
+  color: #4b5563;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.btn{
+  background-color: #10B981;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+
+}
+
+.btn:hover{
+  background-color: #059669;
+}
+
+.welcome-section {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
