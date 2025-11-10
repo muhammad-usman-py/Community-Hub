@@ -192,9 +192,51 @@ body {
     height: 5px;
     background: linear-gradient(90deg,#059669 11%,#10B981 56%,#10b981 33%);
     margin: 0 auto 60px;
-    
-
   }
+  div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.e1{
+  width:31%;  
+  float: left;
+  border: #D9EEE1 2px;
+  margin:5px;
+  height:200px;
+   margin-top: -20px;
+   
+}
+
+.e2{
+  width:31%;  
+  float: left;
+  margin:5px;
+  height:200px;
+   margin-top: -20px;
+}
+
+.e3{
+  width:31%;  
+  float: left;
+  margin: 5px;
+  height:200px;
+  margin-top: -20px;
+}
+.he{
+    background-color: aquamarine;
+    
+}
+h2{
+    text-align: center;
+}
+.border{
+
+  border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #FF0000; /* Red color using hexadecimal */
+    padding: 10px;
+    margin-top: -20px; 
+}
 
 
 /* usman : Featured Section */
