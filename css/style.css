@@ -32,12 +32,22 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
 .nav-left h1 {
   font-size: 1.5rem;
   color: #111827;
   font-weight: 700;
   margin: 0;
+}
+
+.nav-left .logo {
+  background-color: black;
+  height: 40px;
+  width: auto;
 }
 
 
@@ -176,6 +186,7 @@ body {
 }
 
 /* usman : Featured Section */
+
 .container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -205,6 +216,14 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
   height: 200px;
+}
+
+.line{
+  width: 120px; 
+  height: 5px; 
+  border-radius: 10px; 
+  margin: 10px auto 30px auto; 
+  background: linear-gradient(90deg, #10B981, #3B82F6);
 }
 
 
