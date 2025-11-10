@@ -149,8 +149,8 @@ body {
   line-height: 1.6;
 }
 
-.btn{
-  background-color: #10B981;
+.butn{
+  background-color:#10B981;
   color: white;
   border: none;
   border-radius: 15px;
@@ -162,7 +162,7 @@ body {
 
 }
 
-.btn:hover{
+.butn:hover{
   background-color: #059669;
 }
 
