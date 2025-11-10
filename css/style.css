@@ -180,6 +180,7 @@ body {
   .main{
       max-width: 1400px;
       margin: 0 auto;
+      margin-top: 100px;
   }
   h1{
 
@@ -196,12 +197,13 @@ body {
   div.mycontainer {
   width:100%;
   overflow:auto;
+  margin-top: 30px;
 }
 .e1{
   width:31%;  
   float: left;
   border: #D9EEE1 2px;
-  margin:5px;
+  margin:10px;
   height:200px;
    margin-top: -20px;
    
@@ -210,8 +212,8 @@ body {
 .e2{
   width:31%;  
   float: left;
-  margin:5px;
-  height:200px;
+  margin:10px;
+  height:250px;
    margin-top: -20px;
 }
 
@@ -219,8 +221,9 @@ body {
   width:31%;  
   float: left;
   margin: 5px;
-  height:200px;
+  height:250px;
   margin-top: -20px;
+
 }
 .he{
     background-color: aquamarine;
