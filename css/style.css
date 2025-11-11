@@ -384,6 +384,31 @@ h4:hover{
     box-shadow: 100 100px 100px rgba(9, 9, 9, 9);
     flex: 0 0 450px;
   }
+  .followus{
+    margin-top: 10%;
+  }
+  .hyperlink{
+  color:rgb(119, 76, 228);
+  text-decoration: none;
+  font-size:20px;
+            transition: transform 0.2s ease;
+  }
+  .logo1 {
+    display:flex;
+    flex-direction: row;
+  height: 40px;
+  width: auto;
+   justify-content: space-between;
+   align-items: center;
+  margin: 50px auto; 
+}
+  .hyperlink:hover{
+    cursor: pointer;
+    color: #0e4ae0;
+    text-shadow: 0 0 10px rgba(109, 215, 137, 0.6);
+    transform: scale(1.1);
+
+  }
   .feedback{
     animation: fadeIn 2s ease;
     border-radius:16px;
@@ -399,13 +424,29 @@ h4:hover{
     box-shadow: 10 2px 6px rgba(33, 182, 115, 0.05);
     flex: 1 1 0%;
   }
-  input, select, textarea {
+  input{
       padding: 12px;
       border-radius: 8px;
       border: 1px solid #d0d0d5;
       font-size: 15px;
       outline: none;
       width: 80%;
+    }
+    select{
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #d0d0d5;
+      font-size: 15px;
+      outline: none;
+      width: 85%;
+    }
+    textarea{
+       padding: 30px;
+      border-radius: 8px;
+      border: 1px solid #d0d0d5;
+      font-size: 15px;
+      outline: none;
+      width: 75%;
     }
     input:focus, select:focus, textarea:focus {
       border-color: #59ff6f;
@@ -420,9 +461,10 @@ h4:hover{
       border-radius: 8px;
       cursor: pointer;
       transition: 0.3s;
+      margin-top: 20px;
     }
     .button1:hover {
       opacity: 0.9;
     }
-
+  /* ==== Hammad : Resource Page==== */
 
