@@ -260,7 +260,9 @@ body {
   height:200px;
    margin-top: -20px;
    
+   
 }
+
 
 .e2{
   width:31%;  
@@ -293,14 +295,12 @@ h2{
     padding: 10px;
     margin-top: -20px; 
 }
-.eh:hover{
+h4:hover{
   cursor: pointer;
-    color: #5483f1;
-    /* text-shadow: 0 0 10px rgba(109, 164, 215, 0.6); */
-    transform: scale(1.2);
-
-  
+  background-color: #111827;
+  font-size: large;
 }
+
 
 
 
