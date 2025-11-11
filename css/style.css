@@ -427,7 +427,6 @@ p:hover{
     flex-direction: row;
   height: 40px;
   width: auto;
-   justify-content: space-between;
    align-items: center;
   margin: 50px auto; 
 }
