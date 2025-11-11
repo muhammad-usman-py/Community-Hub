@@ -81,3 +81,62 @@
 
 
 /* usman : news----> accordian */
+.accordion {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.tab {
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tab input {
+  display: none; 
+}
+
+.tab__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #10B981;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1rem;
+  transition: background 0.3s ease;
+}
+
+.tab__label:hover {
+  background-color: #059669;
+}
+
+.tab__label::after {
+  content: "\276F";
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
+.tab input:checked + .tab__label::after {
+  transform: rotate(270deg);
+}
+
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1rem;
+  background: #f9f9f9;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+}
+
+.tab input:checked ~ .tab__content {
+  max-height: 300px;
+  padding: 1rem;
+}
+
+.tab__content p {
+  margin: 0;
+}
