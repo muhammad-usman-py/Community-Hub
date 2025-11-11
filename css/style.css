@@ -415,8 +415,6 @@ transition: 0.5s ease;
     box-shadow: 100 100px 100px rgba(9, 9, 9, 9);
     flex: 0 0 450px;
   }
-<<<<<<< HEAD
-=======
   .followus{
     margin-top: 10%;
   }
@@ -446,7 +444,6 @@ transition: 0.5s ease;
     transform: scale(1.1);
 
   }
->>>>>>> 9569f11855f5103c88249fc9f202249fe5f81346
   .feedback{
     animation: fadeIn 2s ease;
     border-radius:16px;
