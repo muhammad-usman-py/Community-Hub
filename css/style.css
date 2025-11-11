@@ -532,7 +532,7 @@ transition: 0.5s ease;
       opacity: 0.9;
     }
 
-    /* ==== Hammad : Contact Page==== */
+    /* ==== Hammad : resource page==== */
     .wholetab{
        animation: fadeIn 2s ease;
       display:flex;
@@ -555,8 +555,11 @@ border-left: 4px solid #02b375;
           box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
     text-shadow: 0 0 10px rgba(109, 215, 137, 0.6);
     transform: scale(1.1);
-
     }
+    .mytabs input[type="radio"]
+  {
+    display: none;
+  }
     
 
 
