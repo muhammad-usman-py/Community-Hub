@@ -160,6 +160,8 @@ body {
 }
 
 .butn{
+  
+  text-decoration: none;
   background-color:#10B981;
   color: white;
   border: none;
@@ -174,6 +176,8 @@ body {
 
 .butn:hover{
   background-color: #059669;
+  transform: translateY(-3px);
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.2);
 }
 
 .welcome-section {
@@ -207,6 +211,7 @@ body {
   padding: 0px 20px;
 }
 
+
 .icon{
   border-radius: 40px;
   background-color:#10B981;
@@ -234,6 +239,74 @@ body {
   padding: 10px 10px 10px 10px;
   height: 200px;
 }
+
+
+/* Usman news section */
+.news{
+  background-color:#10b981;
+  background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
+  text-align: center;
+  padding: 96px 32px;
+  border-bottom-right-radius: 35px;
+}
+
+.news h1{
+  font-size: 4rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.news{
+  animation: fadeIn 1s ease;
+}
+
+/* Usman news ---> news carousel */
+.carousel{
+  width: 100%;
+  overflow-x: auto;
+  margin: 3em auto;
+  display: flex;
+  gap: 1em;
+}
+
+.carousel::-webkit-scrollbar{
+  display: none;
+}
+
+.carousel::scrollbar-button(right){
+  content: 'right';
+  border: none;
+  background-color:black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-bottom: .1em;
+  cursor: pointer;
+
+}
+
+.carousel::scrollbar-button(left){
+  content: '←';
+}
+
+.card1{
+  flex: 0 0 20em;
+  height: 12em;
+  background-color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+  text-align: center;
+  align-content: center;
+}
+
+
+
+
+
+
 
 /*====Maaz====
   events=====*/
