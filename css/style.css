@@ -14,7 +14,7 @@
 body {
   
   font-family: Arial, sans-serif;
-  background-color:#e5e7eb;
+  background-color:#d1d3d6;
   color: var(--text);
   transition: background-color 0.3s, color 0.3s;
   line-height: 1.6;
@@ -169,6 +169,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s;
+  text-decoration: none;
 
 }
 
@@ -235,6 +236,10 @@ body {
   height: 200px;
 }
 
+
+
+/* End of usman section*/
+/* next on style css */
 
 
 
