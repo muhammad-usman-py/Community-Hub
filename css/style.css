@@ -242,12 +242,13 @@ body {
       max-width: 1400px;
       margin: 0 auto;
       margin-top: 100px;
+      display: relative;
   }
   h1{
 
     text-align: center;
     color:#111827;
-    margin:20px 0;
+    margin:10px 0;
   }
   .line{
     width: 120px;
@@ -261,9 +262,9 @@ body {
   margin-top: 30px;
 }
 .e1{
-  width:31%;  
+  width:30%;  
   float: left;
-  border: #D9EEE1 2px;
+  /* border: #D9EEE1 2px; */
   margin:10px;
   height:200px;
    margin-top: -20px;
@@ -273,7 +274,7 @@ body {
 
 
 .e2{
-  width:31%;  
+  width:30%;  
   float: left;
   margin:10px;
   height:250px;
@@ -281,15 +282,16 @@ body {
 }
 
 .e3{
-  width:31%;  
+  width:30%;  
   float: left;
-  margin: 5px;
+  margin: 10px;
   height:250px;
   margin-top: -20px;
 
 }
 .he{
-    background-color: aquamarine;
+       background-color: #10b981;
+    background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
     
 }
 h2{
@@ -299,16 +301,43 @@ h2{
 
   border-left-style: solid;
     border-left-width: 5px;
-    border-left-color: #FF0000; /* Red color using hexadecimal */
+    border-left-color: #10B981; /* Red color using hexadecimal */
+    /* background-image: linear-gradient(to right, #ccf0c5, #a1e5e7, #2910b9); */
+    
+    
     padding: 10px;
     margin-top: -20px; 
 }
-h4:hover{
+/* h4:hover{
   cursor: pointer;
-  background-color: #111827;
+  background-color: #10B981;
   font-size: large;
 }
+p:hover{
+  cursor: pointer;
+  background-color: #10B981;
+  font-size: large;
+} */
+.e1:hover{
 
+  cursor: pointer;
+  background-color: #10B981;
+  font-size: large;
+  height: auto;
+}
+.e2:hover{
+ cursor: pointer;
+  background-color: #10B981;
+  font-size: large;
+  height: auto;
+
+}
+.e3:hover{
+   cursor: pointer;
+  background-color: #10B981;
+  font-size: large;
+  height: auto;
+}
 
 
 
