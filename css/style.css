@@ -160,8 +160,6 @@ body {
 }
 
 .butn{
-  
-  text-decoration: none;
   background-color:#10B981;
   color: white;
   border: none;
@@ -176,8 +174,6 @@ body {
 
 .butn:hover{
   background-color: #059669;
-  transform: translateY(-3px);
-  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.2);
 }
 
 .welcome-section {
@@ -211,7 +207,6 @@ body {
   padding: 0px 20px;
 }
 
-
 .icon{
   border-radius: 40px;
   background-color:#10B981;
@@ -240,74 +235,6 @@ body {
   height: 200px;
 }
 
-
-/* Usman news section */
-.news{
-  background-color:#10b981;
-  background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
-  text-align: center;
-  padding: 96px 32px;
-  border-bottom-right-radius: 35px;
-}
-
-.news h1{
-  font-size: 4rem;
-  color: #111827;
-  margin-bottom: 20px;
-}
-
-.news{
-  animation: fadeIn 1s ease;
-}
-
-/* Usman news ---> news carousel */
-.carousel{
-  width: 100%;
-  overflow-x: auto;
-  margin: 3em auto;
-  display: flex;
-  gap: 1em;
-}
-
-.carousel::-webkit-scrollbar{
-  display: none;
-}
-
-.carousel::scrollbar-button(right){
-  content: 'right';
-  border: none;
-  background-color:black;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 3rem;
-  color: white;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  padding-bottom: .1em;
-  cursor: pointer;
-
-}
-
-.carousel::scrollbar-button(left){
-  content: '←';
-}
-
-.card1{
-  flex: 0 0 20em;
-  height: 12em;
-  background-color: white;
-  padding: 1em;
-  border-radius: 0.5em;
-  text-align: center;
-  align-content: center;
-}
-
-
-
-
-
-
-
 /*====Maaz====
   events=====*/
 
@@ -316,6 +243,7 @@ body {
       margin: 0 auto;
       margin-top: 100px;
       display: relative;
+      transition: 0.3s ease;
   }
   h1{
 
@@ -392,24 +320,25 @@ p:hover{
   font-size: large;
 } */
 .e1:hover{
-  transition: 0.2s ease;
+  transition: 0.5s ease;
   cursor: pointer;
-  background-color: #10B981;
+  /* background-color: #10B981; */
   font-size: large;
   height: auto;
 }
 .e2:hover{
  cursor: pointer;
-  background-color: #10B981;
+  /* background-color: #10B981; */
   font-size: large;
   height: auto;
-
+transition: 0.5s ease;
 }
 .e3:hover{
    cursor: pointer;
-  background-color: #10B981;
+  /* background-color: #10B981; */
   font-size: large;
   height: auto;
+  transition: 0.5s ease;
 }
 
 
@@ -486,30 +415,6 @@ p:hover{
     box-shadow: 100 100px 100px rgba(9, 9, 9, 9);
     flex: 0 0 450px;
   }
-  .followus{
-    margin-top: 10%;
-  }
-  .hyperlink{
-  color:rgb(119, 76, 228);
-  text-decoration: none;
-  font-size:20px;
-            transition: transform 0.2s ease;
-  }
-  .logo1 {
-    display:flex;
-    flex-direction: row;
-  height: 40px;
-  width: auto;
-   align-items: center;
-  margin: 50px auto; 
-}
-  .hyperlink:hover{
-    cursor: pointer;
-    color: #0e4ae0;
-    text-shadow: 0 0 10px rgba(109, 215, 137, 0.6);
-    transform: scale(1.1);
-
-  }
   .feedback{
     animation: fadeIn 2s ease;
     border-radius:16px;
@@ -525,29 +430,13 @@ p:hover{
     box-shadow: 10 2px 6px rgba(33, 182, 115, 0.05);
     flex: 1 1 0%;
   }
-  input{
+  input, select, textarea {
       padding: 12px;
       border-radius: 8px;
       border: 1px solid #d0d0d5;
       font-size: 15px;
       outline: none;
       width: 80%;
-    }
-    select{
-      padding: 12px;
-      border-radius: 8px;
-      border: 1px solid #d0d0d5;
-      font-size: 15px;
-      outline: none;
-      width: 85%;
-    }
-    textarea{
-       padding: 30px;
-      border-radius: 8px;
-      border: 1px solid #d0d0d5;
-      font-size: 15px;
-      outline: none;
-      width: 75%;
     }
     input:focus, select:focus, textarea:focus {
       border-color: #59ff6f;
@@ -562,10 +451,9 @@ p:hover{
       border-radius: 8px;
       cursor: pointer;
       transition: 0.3s;
-      margin-top: 20px;
     }
     .button1:hover {
       opacity: 0.9;
     }
-  /* ==== Hammad : Resource Page==== */
+
 
