@@ -14,7 +14,7 @@
 body {
   
   font-family: Arial, sans-serif;
-  background-color:#d1d3d6;
+  background-color:rgb(233, 233, 233);
   color: var(--text);
   transition: background-color 0.3s, color 0.3s;
   line-height: 1.6;
@@ -195,22 +195,30 @@ body {
   padding: 2rem;
 }
 
+
 .card{
   text-align: left;
   background-color: white;
   border-radius: 40px;
-  height: 350px;
+  height: 400px;
   width:-10px;
   box-shadow: #4b5563;
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card h3,p{
   padding: 0px 20px;
 }
+.card:hover{
+   transform: translateY(-10px);
+   box-shadow:grey;
+}
 
 .icon{
   border-radius: 40px;
   background-color:#10B981;
+   background-image: linear-gradient(to right, #539970, #72ad80, #b6c7c1);
   display: flex;
   align-items: center;
   justify-content: center ;
@@ -231,15 +239,22 @@ body {
   background-color:#1f2937;
   color: white;
   border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
-  padding: 10px 10px 10px 10px;
-  height: 200px;
+  border-bottom-left-radius: 40px;
+  padding: 50px 10px 10px 10px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.a{
+  color: white;
+  text-decoration: none;
 }
 
 
 
 /* End of usman section*/
-/* next on style css */
+/* next on page.css */
 
 
 
@@ -558,8 +573,6 @@ transition: 0.5s ease;
       opacity: 0.9;
     }
 
-<<<<<<< HEAD
-=======
     /* ==== Hammad : resource page==== */
     .wholetab{
        animation: fadeIn 2s ease;
@@ -591,7 +604,6 @@ border-left: 4px solid #02b375;
     
 
 
->>>>>>> d017449803a716fffdd0fd4d4603ed1842cf308e
 
 
 
