@@ -404,6 +404,13 @@ transition: 0.5s ease;
   font-size: large;
   height: auto; 
   }
+  .buisnessdescription{
+    text-align: center;
+  }
+  .subscript{
+    font-size: smaller;
+    text-align: center;
+  }
 
 
 
