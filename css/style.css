@@ -415,6 +415,38 @@ transition: 0.5s ease;
     box-shadow: 100 100px 100px rgba(9, 9, 9, 9);
     flex: 0 0 450px;
   }
+<<<<<<< HEAD
+=======
+  .followus{
+    margin-top: 10%;
+  }
+  .hyperlink{
+  color:rgb(119, 76, 228);
+  text-decoration: none;
+  font-size:20px;
+            transition: transform 0.2s ease;
+  }
+  .logocontain {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   align-items: center;
+   width: 60%;
+  margin: 50px auto;
+}
+.logo1{
+   height: 40px;
+  width: auto;
+  
+}
+  .hyperlink:hover{
+    cursor: pointer;
+    color: #0e4ae0;
+    text-shadow: 0 0 10px rgba(109, 215, 137, 0.6);
+    transform: scale(1.1);
+
+  }
+>>>>>>> 9569f11855f5103c88249fc9f202249fe5f81346
   .feedback{
     animation: fadeIn 2s ease;
     border-radius:16px;
