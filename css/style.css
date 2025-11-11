@@ -570,3 +570,41 @@ p:hover{
     }
   /* ==== Hammad : Resource Page==== */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Usman: Do not touch these
+  these are the parts that come after naviagtion mean to say title*/
+  .top{
+  background-color:#10b981;
+  background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
+  text-align: center;
+  padding: 96px 32px;
+  border-bottom-right-radius: 35px;
+}
+
+.top h1{
+  font-size: 4rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.top{
+  animation: fadeIn 1s ease;
+}
