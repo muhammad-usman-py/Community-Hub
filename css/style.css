@@ -14,7 +14,7 @@
 body {
   
   font-family: Arial, sans-serif;
-  background-color:#d1d3d6;
+  background-color:#e7e5e5;
   color: var(--text);
   transition: background-color 0.3s, color 0.3s;
   line-height: 1.6;
@@ -402,6 +402,13 @@ transition: 0.5s ease;
   /* background-color: #10B981; */
   font-size: large;
   height: auto; 
+  }
+  .buisnessdescription{
+    text-align: center;
+  }
+  .subscript{
+    font-size: smaller;
+    text-align: center;
   }
 
 
