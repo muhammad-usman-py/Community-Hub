@@ -229,9 +229,10 @@ body {
 .footer{
   background-color: black;
   color: white;
-  border-radius: 10px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
   padding: 10px 10px 10px 10px;
-  height: 100px;
+  height: 200px;
 }
 
 /*====Maaz====
