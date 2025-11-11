@@ -319,7 +319,7 @@ p:hover{
   font-size: large;
 } */
 .e1:hover{
-
+  transition: 0.2s ease;
   cursor: pointer;
   background-color: #10B981;
   font-size: large;
