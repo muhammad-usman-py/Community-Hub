@@ -547,8 +547,24 @@ transition: 0.5s ease;
     box-shadow: 10 2px 6px rgba(33, 182, 115, 0.05);
     flex: 1 1 0%;
   }
-  input, select, textarea {
+  input {
       padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #d0d0d5;
+      font-size: 15px;
+      outline: none;
+      width: 80%;
+    }
+    select{
+       padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #d0d0d5;
+      font-size: 15px;
+      outline: none;
+      width: 85%;
+    }
+    textarea{
+       padding: 40px;
       border-radius: 8px;
       border: 1px solid #d0d0d5;
       font-size: 15px;
@@ -560,6 +576,7 @@ transition: 0.5s ease;
       box-shadow: 0 0 3px #72ff5950;
     }
   .button1{
+    margin-top: 20px;
       background: linear-gradient(to right, #25f28b, #05f575);
       color: #fff;
       border: none;
@@ -573,7 +590,14 @@ transition: 0.5s ease;
       opacity: 0.9;
     }
 
+    /*==== End of Contact page==== */
+
     /* ==== Hammad : resource page==== */
+    .mytabs{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:center;
+    }
     .wholetab{
        animation: fadeIn 2s ease;
       display:flex;
@@ -582,6 +606,8 @@ transition: 0.5s ease;
     max-width: 1100px;
     margin:50px auto;
     padding: 20px;
+    order: 1;
+    display: none;
     }
     .item{
       margin:20px;
@@ -601,8 +627,31 @@ border-left: 4px solid #02b375;
   {
     display: none;
   }
-    
+  .mytabs label{
+    color:rgb(119, 76, 228);
+ transition: transform 0.2s ease;
+    border-radius: 30px;
+    height: 20px;
+    margin:20px;
+    padding: 25px;
+    background-color: #a6e8b5;
+    font-weight: bold;
+  }
+  .mytabs label:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
 
+  
+  .mytabs input[type="radio"]:checked + label+ .wholetab {
+    display:flex;
+  }
+
+  .mytabs input[type="radio"]:checked + label {
+    background-color: white;
+  }
+    
+  /*==== End of resource page==== */
 
 
 
