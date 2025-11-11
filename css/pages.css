@@ -64,11 +64,17 @@
 .card1{
     scroll-snap-align: start;
     flex: 0 0 20em;
-    height: 12em;
+    aspect-ratio: 5 / 3;
     background-color: white;
     color: black;
     padding: 1em;
     border-radius: .5em;
     text-align: center;
     align-content: center;
+}
+
+@media(max-width : 550px){
+    .card1{
+        flex: 0 0 100%;
+    }
 }
