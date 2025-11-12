@@ -190,6 +190,9 @@ body {
 /* usman : Featured Section */
 
 .container{
+  display: flex;
+  justify-content: center;
+  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
@@ -274,6 +277,7 @@ body {
   background-color: #0c9a6a;
 }
 
+/* footer */
 .footer{
   background-color:#1f2937;
   color: white;
