@@ -14,7 +14,7 @@
 body {
   
   font-family: Arial, sans-serif;
-  background-color:var(--bg-secondary);
+  background-color:var(--bg-primary);
   color: var(--text);
   transition: background-color 0.3s, color 0.3s;
   line-height: 1.6;
@@ -199,7 +199,7 @@ body {
 
 .card{
   text-align: left;
-  background-color: white;
+  background-color: rgb(240, 239, 239);
   border-radius: 40px;
   height: 400px;
   width:-10px;
@@ -234,6 +234,44 @@ body {
   border-radius: 10px; 
   margin: 10px auto 30px auto; 
   background: linear-gradient(90deg, #10B981, #3B82F6);
+}
+
+/* ABout on home page */
+.about{
+  align-content: center;
+  padding: 10px 10px;
+}
+
+.about-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: rgb(240, 239, 239);
+  border-radius: 10px;
+  height: auto;
+  padding: 25px;
+  gap: 20px;
+  
+}
+
+.about-btn{
+  text-align:left;
+  align-content: center;
+  background-color: #10B981;  
+  color: white;               
+  text-decoration: none;      
+  padding: 10px 20px;          
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;      
+  transition: background-color 0.3s;
+}
+
+.about-btn:hover{
+  background-color: #0c9a6a;
 }
 
 .footer{
