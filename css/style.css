@@ -634,7 +634,7 @@ border-left: 4px solid #02b375;
     height: 20px;
     margin:20px;
     padding: 25px;
-    background-color: #a6e8b5;
+    background-color: lab(73.2% -49.06 13.19);
     font-weight: bold;
   }
   .mytabs label:hover{
