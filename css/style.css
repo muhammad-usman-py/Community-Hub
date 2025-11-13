@@ -111,6 +111,7 @@ body {
   transition: background 0.3s;
 }
 
+
 .theme-toggle:hover {
   background: #059669;
 }
@@ -222,7 +223,7 @@ body {
 .icon{
   border-radius: 40px;
   background-color:#10B981;
-   background-image: linear-gradient(to right, #539970, #72ad80, #b6c7c1);
+  background-image: linear-gradient(to right, #539970, #72ad80, #b6c7c1);
   display: flex;
   align-items: center;
   justify-content: center ;
@@ -384,18 +385,18 @@ body {
 
 }
 .he{
-       background-color: #10b981;
+    background-color: #10b981;
     background-image: linear-gradient(to right, #c5f0d7, #a1e7b1, #10B981);
     
 }
 h2{
-    text-align: center;
+  text-align: center;
 }
 .border{
 
   border-left-style: solid;
-    border-left-width: 5px;
-    border-left-color: #10B981; /* Red color using hexadecimal */
+  border-left-width: 5px;
+  border-left-color: #10B981; /* Red color using hexadecimal */
     /* background-image: linear-gradient(to right, #ccf0c5, #a1e5e7, #2910b9); */
     
     
@@ -502,11 +503,11 @@ transition: 0.5s ease;
   .line1::after{
     content:"";
     display:block;
-      width: 120px;
-      height: 5px;
-      background: linear-gradient(to right, #03fc39, #668abc);
-      margin: 10px auto;
-      border-radius: 2px;
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(to right, #03fc39, #668abc);
+    margin: 10px auto;
+    border-radius: 2px;
   }
   .line1{
     transition: transform 0.2s ease;
@@ -632,7 +633,6 @@ transition: 0.5s ease;
     .button1:hover {
       opacity: 0.9;
     }
-
 
     /*==== End of Contact page==== */
 
