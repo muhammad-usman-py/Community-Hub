@@ -352,11 +352,13 @@ body {
     margin: 0 auto 60px;
   }
   div.mycontainer {
+    /* display: flex; */
   width:100%;
   overflow:auto;
   margin-top: 30px;
 }
 .e1{
+  /* display: flex; */
   width:30%;  
   float: left;
   /* border: #D9EEE1 2px; */
@@ -369,6 +371,7 @@ body {
 
 
 .e2{
+  /* display: flex; */
   width:30%;  
   float: left;
   margin:10px;
@@ -377,6 +380,7 @@ body {
 }
 
 .e3{
+  /* display: flex; */
   width:30%;  
   float: left;
   margin: 10px;
@@ -434,6 +438,9 @@ transition: 0.5s ease;
   height: auto;
   transition: 0.5s ease;
 }
+
+
+
 /*====Maaz====
   Directory=====*/
   .d{
@@ -469,6 +476,50 @@ transition: 0.5s ease;
   .subscript{
     font-size: smaller;
     text-align: center;
+  }
+  @media  (max-width: 455px)  {
+    .e1{
+      
+      margin: auto;   
+    }
+     .e2{
+     
+      margin: auto;  
+    }
+     .e3{
+      margin: auto;
+      
+    }
+    .d{
+      height: fit-content;
+    }
+
+    /* @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .nav-right {
+    align-self: flex-end;
+  } */
+/* .e1{
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.e2{
+  flex-direction: column;
+  justify-content: center;
+}
+.e3{
+  flex-direction: column;
+  justify-content: center;
+} */
   }
 
 
