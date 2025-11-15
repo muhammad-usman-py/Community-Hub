@@ -64,8 +64,8 @@ CommunityHub/
 | Member | Pages | CSS Focus | Description |
 |---------|--------|-----------|--------------|
 | **Usman (Leader)** | `index.html`, `contact.html` | `style.css`, `themes.css` | Sets base layout, navbar, footer, dark/light mode |
-| **Hammad** | `community-news.html`, `local-events.html` | `pages.css` | Adds news accordion, image carousel, and event grid |
-| **Maaz** | `directory.html`, `resources.html` | `pages.css` | Builds business directory grid and tabbed resources layout |
+| **Maaz** | `community-news.html`, `local-events.html` | `pages.css` | Adds news accordion, image carousel, and event grid |
+| **Hammad** | `directory.html`, `resources.html` | `pages.css` | Builds business directory grid and tabbed resources layout |
 
 ---
 
